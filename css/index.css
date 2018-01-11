@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';  /* project id 526316 */
-  src: url('http://at.alicdn.com/t/font_526316_3dkoit7i70jurf6r.eot');
-  src: url('http://at.alicdn.com/t/font_526316_3dkoit7i70jurf6r.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_526316_3dkoit7i70jurf6r.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_526316_3dkoit7i70jurf6r.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_526316_3dkoit7i70jurf6r.svg#iconfont') format('svg');
+  src: url('http://at.alicdn.com/t/font_526316_c6u3cjhq24o39pb9.eot');
+  src: url('http://at.alicdn.com/t/font_526316_c6u3cjhq24o39pb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_526316_c6u3cjhq24o39pb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_526316_c6u3cjhq24o39pb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_526316_c6u3cjhq24o39pb9.svg#iconfont') format('svg');
 }
 a{
 	display: block;
@@ -507,6 +507,7 @@ i{
 	height: 430px;
 	float: right;
 	padding: 5px 0;
+	background: #fff;
 }
 .all .banner .right .right_top{
 	width: 170px;
@@ -907,6 +908,7 @@ i{
 .dajuhui .list{
 	width: 100%;
 	height: 260px;
+	background: #fff;
 }
 .dajuhui .list .left{
 	width: 1000px;
@@ -995,25 +997,27 @@ i{
 	height: 427px;
 	margin: 0 auto;
 	margin-bottom: 20px;
+
 }
 .haohuo .we1{
 	width: 390px;
 	height: 427px;
 	margin-right: 10px;
 	float: left;
-	/* background: red; */
+	background: #fff;
 }
 .haohuo .we2{
 	width: 390px;
 	height: 427px;
 	margin-right: 10px;
 	float: left;
+	background: #fff;
 /* 	background: red; */
 }
 .haohuo .we3{
 	width: 390px;
 	height: 427px;
-	
+	background: #fff;
 	float: left;
 	/* background: red; */
 }
@@ -1109,6 +1113,7 @@ i{
 	width: 369px;
 	height: 362px;
 	margin: 10px auto 0;
+	background: #fff;
 }
 .haohuo .we1 .bottom ul{
 	width: 370px;
@@ -1351,6 +1356,7 @@ i{
 	height: 427px;
 	margin-left: 10px;
 	float: left;
+	background: #fff;
 }
 .temai .left_:first-child{
 	margin: 0;
@@ -1560,6 +1566,7 @@ i{
 	height: 20px;
 	color: #FFF;
     width: 160px;
+   /*  background: #fff; */
 }
 .shipin .enter .item1 img{
 	width: 170px;
@@ -1590,7 +1597,7 @@ i{
 .shipin .wach{
 	width: 390px;
 	height: 350px;
-	background: red;
+	
 	float: left;
 	margin-bottom: 10px;
 }
@@ -1963,7 +1970,7 @@ i{
     height: 109px;
     overflow: hidden;
     border-bottom: 1px solid #EEE;
-    /* background: red; */
+    background: #fff;
 }
 .hot .hot1 .bottom_list ul{
 	width: 593px;
@@ -2017,6 +2024,7 @@ i{
 .hot .hot1 .bottom_logo{
 	width: 590px;
 	height: 40px;
+	background: #fff;
 }
 .hot .hot1 .bottom_logo li{
 	margin: 9px 8px 0 9px;
@@ -2210,6 +2218,7 @@ i{
 	width: 100%;
     height: 40px;
     float: left;
+    background: #fff;
 }
 .jiadian .lolo li{
 	float: left;
@@ -2513,4 +2522,126 @@ i{
 .zuihou .xb img{
 	height: 24px;
     width: 76px;
+}
+
+.zuobian{
+	width: 68px;
+    
+    border: 1px solid #DDD;
+   
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    right: auto;
+    margin-left: -670px;
+    margin-top: -159.5px;
+
+    
+}
+.logotop{
+	position: relative;
+	width: 68px;
+	height: 100%;
+}
+.logotop li{
+	width: 68px;
+    height: 28px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.logotop li:hover{
+	background: #f60;
+}
+.logotop li:hover a{
+	color: #fff;
+}
+.logotop li a{
+	font-size: 12px;
+	color: #333;
+}
+.zuobian .xiaotu{
+	position: absolute;
+    width: 45px;
+    height: 37px;
+   	top: -29px;
+   	left:13px;
+   	background: url('../img/xb.png')no-repeat center center;
+   	background-position: -302px -80px;
+}
+.youdaohang{
+	width: 35px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	background: #383838;
+	padding-top:180px;
+
+}
+.youdaohang .wode{
+	display: block;
+	width: 100%;
+	height: 30px;
+	padding: 0 3px 5px;
+	/* background: red; */
+	
+}
+.youdaohang .wode .iconfont{
+	font-size: 16px;
+	color: #ffaa01;
+}
+.youdaohang .car{
+	width: 100%;
+	height: 116px;
+	text-align: center;
+	/* background: yellow; */
+	padding-top: 5px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #404040;
+	border-top: 1px solid #404040;
+}
+.youdaohang .iconfont{
+	font-size: 18px;
+	color: #ffaa01;
+	margin-left: 5px;
+	display: block;
+
+}
+.youdaohang .car span{
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+}
+.youdaohang .car p{
+	width: 17px;
+	height: 15px;
+	margin: 0 auto;
+	background: red;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.youdaohang .qian{
+	width: 35px;
+	height: 30px;
+	/* background:green; */
+	
+	text-align: center;
+}
+.youdaohang .qian1{
+	width: 35px;
+	height: 30px;
+	/* background: blue; */
+	text-align: center;
+	margin-top: 30px;
+}
+.youdaohang li .top{
+	color: #d9940b;
+	font-size: 12px;
+	text-align: center;
 }
